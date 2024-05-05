@@ -1,7 +1,11 @@
 import React from 'react';
 import { Play } from 'next/font/google';
 
-const play = Play({ subsets: ["latin"], weight: ['400', '700'] });
+const play = Play({ 
+  subsets: ["latin"], 
+  weight: ['400', '700'],
+  variable: '--font-play',
+});
 
 export const H1 = ({ children }) => {
   return (
