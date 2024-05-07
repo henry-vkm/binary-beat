@@ -4,6 +4,7 @@ import { H1, H2 } from '../../components/headings.component'
 import { Pg1, Pg3, Pg2 } from '../../components/paragraphs.component'
 import Image from 'next/image'
 import { PrimaryButton } from '../../components/buttons-component'
+import ProjectCard from '@/components/projectCard.component'
 
 const CUSTOMER_REVIEWS = [
   {
@@ -103,15 +104,7 @@ const About = () => {
                   </LinkText>
                 </div>
               </div>
-              <div>
-                <Image src="/project.png" width={600} height={400} alt="project" />
-                <div className="flex justify-between items-center">
-                  <Cap1>burmacuisine.com</Cap1>
-                  <LinkText>
-                    <Image src="/arrow.svg" width={70} height={70} alt="arrow" /> 
-                  </LinkText>
-                </div>
-              </div>
+              <ProjectCard />
             </div>
             <div className="pt-[30px]">
               <PrimaryButton>See More Projects</PrimaryButton>

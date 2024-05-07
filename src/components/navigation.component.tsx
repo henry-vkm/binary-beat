@@ -22,7 +22,7 @@ const Navigation = () => {
             <Link href="/blog" className="cursor-pointer">
               <Pg3>Blog</Pg3>
             </Link>
-            <Link href="/portfolio" className="cursor-pointer">
+            <Link href="/projects" className="cursor-pointer">
               <Pg3>Portfolio</Pg3>
             </Link>
           </div>

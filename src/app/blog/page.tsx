@@ -36,7 +36,7 @@ const Blog = async () => {
   return (
     <div className="grid grid-cols-2 gap-10">
       {
-        data.map(({title, mainImage, _updatedAt}) => {
+        data.map(({title, mainImage, _updatedAt, body}) => {
           return (
             <div key={title}>
               <p>{title}</p>
