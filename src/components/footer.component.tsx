@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="bg-[#D6C4B0] relative">
         <div className="max-w-[1240px] mx-auto flex">
           <div className="py-[50px] flex flex-col gap-[25px]">
-            <H3>Got a Project? Let's talk!</H3>
+            <H3>Got a Project? Let&apos;s talk!</H3>
             <div>
               <TransparentButton>Book an Appointment</TransparentButton>
             </div>

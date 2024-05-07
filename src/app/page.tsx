@@ -16,7 +16,7 @@ export default function Home() {
                 <span className="h-[158px] w-[5px] bg-[#ede6df]" />
                 <H1>Elevate <br/> Your Online <br/> Presence</H1>
               </div>
-              <Pg3>Specializing in innovative web design, we're dedicated to helping small businesses stand out online. Our mission is to create captivating brands that drive growth and success in the digital landscape.</Pg3>
+              <Pg3>Specializing in innovative web design, we&apos;re dedicated to helping small businesses stand out online. Our mission is to create captivating brands that drive growth and success in the digital landscape.</Pg3>
             </div>
             <div>
               <PrimaryButton>Book an Appointment</PrimaryButton>
